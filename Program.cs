@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Alpharator
 {
     class Program
@@ -15,7 +10,6 @@ namespace Alpharator
             {
                  PrintMenu(); //UI 
                  exit = Work();  //start
-
             }
         }
         public static Boolean Work()
@@ -63,7 +57,6 @@ namespace Alpharator
             return exit;
 
         }
-
         public static string GenerateAlphabets(char startChar, char endingChar)
         {
             string alphabets ="";
@@ -74,10 +67,6 @@ namespace Alpharator
             return alphabets;
 
         }
-
-
-
-
 
         public static void PrintMenu()
         {
@@ -94,9 +83,7 @@ namespace Alpharator
             Console.WriteLine("\t\t\t\t");
             Console.WriteLine("Press 3 For Both Lower and Upper Case Alphabets");
             Console.WriteLine("\t\t\t\t");
-            Console.WriteLine("Press 4 to Quit");
-
-               
+            Console.WriteLine("Press 4 to Quit");               
         }
 
     }
